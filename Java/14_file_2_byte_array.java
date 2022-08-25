@@ -18,7 +18,7 @@ public class F2BA {
         throws IOException
     {
         // create Path class object and assign local dir of file to it
-        Path path = Paths.get("E:\\2_DEV\\DEV_coding\\test\\text.txt");
+        Path path = Paths.get("E:\\test\\test\test\\text.txt");
 
         // convert file into Byte Array
         byte[] arr = Files.readAllBytes(path);
