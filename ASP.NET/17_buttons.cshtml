@@ -1,0 +1,32 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "T3st F0rm5";
+}
+
+<form>
+<p>Text box</p>
+<label for="guess1">Guess what:</label><br>
+<input type="text" id="guess1" name="fname"><br><br>
+
+<p>Radio buttons</p>
+<input type="radio" id="opt1" name="selected" value="OPT1">
+<label for="opt1">OPT1</label><br>
+<input type="radio" id="opt2" name="selected" value="OPT2">
+<label for="opt2">OPT2</label><br>
+<br><br>
+
+<p>Checkbox </p>
+<input type="checkbox" id="option1" name="option1" value="VER1">
+<label for="option1"> Version 1</label><br>
+<input type="checkbox" id="option2" name="option2" value="VER2">
+<label for="option2"> Version 1</label><br>
+
+<br><br>
+
+<p>Submit button </p>
+<input type="submit" value="Submit">
+</form>
+
+@* https://docs.microsoft.com/en-us/aspnet/web-pages/overview/getting-started/introducing-aspnet-web-pages-2/form-basics *@
+@* https://www.w3schools.com/html/html_forms.asp *@
